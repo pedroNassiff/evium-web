@@ -8,7 +8,7 @@ import Staking from "../../src/components/Whitepaper/Staking";
 import Marketplace from "../../src/components/Whitepaper/Marketplace";
 import FutureFeature from "../../src/components/Whitepaper/FutureFeature";
 
-export default function index() {
+export default function Index() {
   const [select, useSelect] = useState("Connect Wallet");
   console.log(select);
   return (
