@@ -1,3 +1,5 @@
+@import "./../../styles/utils";
+
 .container {
   display: flex;
   flex-direction: column;
@@ -8,6 +10,7 @@
   justify-content: space-between;
   padding: 20px 0;
   box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.212);
+  background-color: $color_tertiary;
 }
 
 .sidebar_top {
@@ -17,17 +20,20 @@
 }
 .sidebar_top__title {
   font-size: 24px;
+  color: black;
 }
 
 .bottom {
   display: flex;
-  max-height: 60vh;
+  max-height: 100%;
 }
 
 .right {
   width: 100%;
   padding-right: 120px;
   padding-left: 60px;
+  background-image: url("/fondo-presentación_6.jpg");
+  background-position: center;
 }
 .sidebar_input {
   width: 100%;

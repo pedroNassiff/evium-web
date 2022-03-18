@@ -1,7 +1,11 @@
+@import "./../../../../styles/utils";
+
 .sidebar {
   width: 20%;
   padding-left: 120px;
   overflow-y: scroll;
+  height: 70vh;
+  background-color: $color_secondary;
 }
 .sidebar_top {
   background-color: white;

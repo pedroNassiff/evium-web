@@ -8,7 +8,11 @@ export default function Index() {
       <div
         className={`${styles["footer__container"]} custom_container custom_container--xxxl`}
       >
-        <img src="/logo_v5.jpg" alt="" className={`${styles["footer__images"]}`} />
+        <img
+          src="/logo_v5-removebg-preview.png"
+          alt=""
+          className={`${styles["footer__images"]}`}
+        />
         <div className={`${styles["footer__links"]}`}>
           <div className={`${styles["footer__background"]}`}>
             <Icon icon="bxl:telegram" className={`${styles["icon"]}`} />
