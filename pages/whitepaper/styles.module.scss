@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.212);
+}
+
+.sidebar_top {
+  width: 20%;
+  padding-left: 120px;
+  border-right: 1px solid rgba(20, 20, 20, 0.356);
+}
+.sidebar_top__title {
+  font-size: 24px;
+}
+
+.bottom {
+  display: flex;
+  max-height: 60vh;
+}
+
+.right {
+  width: 100%;
+  padding-right: 120px;
+  padding-left: 60px;
+}
+.sidebar_input {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 120px;
+}
+.input {
+  margin-left: 30px;
+  border: none;
+}
+
+.line {
+  height: 100%;
+  width: 1px;
+  background-color: rgba(20, 20, 20, 0.356);
+  outline: none;
+}

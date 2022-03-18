@@ -1,0 +1,37 @@
+.sidebar {
+  width: 20%;
+  padding-left: 120px;
+  overflow-y: scroll;
+}
+.sidebar_top {
+  background-color: white;
+  padding: 20px 0;
+}
+.sidebar__link--disable {
+  color: gray;
+  font-family: sans-serif;
+  padding: 10px 0;
+  padding-left: 5px;
+}
+
+.sidebar__list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sidebar__link {
+  cursor: pointer;
+  padding: 10px 0;
+  padding-left: 5px;
+}
+
+.sidebar__link:active {
+  background-color: transparent;
+  color: rgba(56, 56, 56, 0.383);
+  cursor: none;
+}
+.sidebar__link:hover {
+  background-color: rgba(128, 128, 128, 0.205);
+}

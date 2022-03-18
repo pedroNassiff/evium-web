@@ -1,0 +1,30 @@
+#app {
+  font-family: $font_1;
+}
+
+.title--distint {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  min-height: 70vh;
+  height: 100%;
+}
