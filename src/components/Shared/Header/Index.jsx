@@ -8,7 +8,7 @@ export default function Index() {
       <div
         className={`${styles["header__container"]} custom_container custom_container--xxxl`}
       >
-        <img src="./logo-small.svg" alt="" className={`${styles["header__logo"]}`} />
+        <img src="./imagotipo-evium.png" alt="" className={`${styles["header__logo"]}`} />
         <nav className={`${styles["header_navbar"]}`}>
           <ul className={`${styles["header_navbar__list"]}`}>
             <li className={`${styles["header_navbar__item"]}`}>
