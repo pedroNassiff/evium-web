@@ -15,7 +15,7 @@ export default function index() {
     <div className={`${styles["container"]} `}>
       <div className={`${styles["top"]}`}>
         <div className={`${styles["sidebar_top"]}`}>
-          <span className={`${styles["sidebar_top__title"]}`}>👾 Cryptonite </span>
+          <span className={`${styles["sidebar_top__title"]}`}>👾 EVIUM </span>
         </div>
         <div className={`${styles["sidebar_input"]}`}>
           <div className={`${styles["line"]}`}></div>
