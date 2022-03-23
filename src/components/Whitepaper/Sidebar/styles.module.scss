@@ -6,6 +6,17 @@
   overflow-y: scroll;
   height: 70vh;
   background-color: $color_secondary;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    background: #37425698;
+
+    &-thumb {
+      background: #24052e;
+      border-radius: 10px;
+      // border-right: 2px solid #030f28;
+    }
+  }
 }
 .sidebar_top {
   background-color: white;

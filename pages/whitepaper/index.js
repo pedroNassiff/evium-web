@@ -7,6 +7,7 @@ import Farming from "../../src/components/Whitepaper/Farming";
 import Staking from "../../src/components/Whitepaper/Staking";
 import Marketplace from "../../src/components/Whitepaper/Marketplace";
 import FutureFeature from "../../src/components/Whitepaper/FutureFeature";
+import { Icon } from "@iconify/react";
 
 export default function Index() {
   const [select, useSelect] = useState("Connect Wallet");
@@ -19,11 +20,21 @@ export default function Index() {
       <div className={`${styles["container"]} `}>
         <div className={`${styles["top"]}`}>
           <div className={`${styles["sidebar_top"]}`}>
-            <span className={`${styles["sidebar_top__title"]}`}>👾 Cryptonite </span>
+            <span className={`${styles["sidebar_top__title"]}`}>👾 Evium </span>
           </div>
           <div className={`${styles["sidebar_input"]}`}>
             <div className={`${styles["line"]}`}></div>
-            <input type="text" className={`${styles["input"]}`} placeholder="Search..." />
+            <div className={`${styles["sidebar_search"]}`}>
+              <label for="search">
+                <Icon icon="carbon:search" />
+              </label>
+              <input
+                id="search"
+                type="text"
+                className={`${styles["input"]}`}
+                placeholder="Search..."
+              />
+            </div>
           </div>
         </div>
         <div className={`${styles["bottom"]}`}>

@@ -35,15 +35,30 @@
   background-image: url("/fondo-presentación_6.jpg");
   background-position: center;
 }
+
+.sidebar_search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+}
 .sidebar_input {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   padding-right: 120px;
+  align-items: center;
 }
 .input {
-  margin-left: 30px;
+  margin-left: 16px;
   border: none;
+  background-color: transparent;
+  caret-color: rgb(255, 255, 255);
+  outline: none;
+  &::placeholder {
+    color: rgb(255, 255, 255);
+  }
 }
 
 .line {
