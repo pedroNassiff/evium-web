@@ -42,7 +42,7 @@ export default function Index() {
               </Link>
             </li>
             <li className={`${styles["header_navbar__item"]}`}>
-              <Link href={"/whitepaper"}>
+              <Link href={"/whitepaper/connectwallet"}>
                 <a className={`${styles["header_navbar__link"]}`}>Whitepaper</a>
               </Link>
             </li>

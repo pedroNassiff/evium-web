@@ -1,0 +1,70 @@
+@import "../../../styles/utils";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.212);
+  background-color: $color_tertiary;
+}
+
+.sidebar_top {
+  width: 20%;
+  padding-left: 120px;
+  border-right: 1px solid rgba(20, 20, 20, 0.356);
+}
+.sidebar_top__title {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+.bottom {
+  display: flex;
+  max-height: 100%;
+}
+
+.right {
+  width: 100%;
+  padding-right: 120px;
+  padding-left: 60px;
+  background-image: url("/fondo-presentación_6.jpg");
+  background-position: center;
+}
+
+.sidebar_search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+}
+.sidebar_input {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 120px;
+  align-items: center;
+}
+.input {
+  margin-left: 16px;
+  border: none;
+  background-color: transparent;
+  caret-color: rgb(255, 255, 255);
+  outline: none;
+  &::placeholder {
+    color: rgb(255, 255, 255);
+  }
+}
+
+.line {
+  height: 100%;
+  width: 1px;
+  background-color: rgba(20, 20, 20, 0.356);
+  outline: none;
+}
